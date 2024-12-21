@@ -1,0 +1,31 @@
+{
+  "name": "loco-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@measured/puck": "^0.17.1",
+    "classnames": "^2.3.2",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@measured/puck-plugin-heading-analyzer": "^0.17.1",
+    "@types/node": "^17.0.12",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "eslint-config-custom": "*",
+    "i18next": "^24.2.0",
+    "lucide-react": "^0.469.0",
+    "next-i18next": "^15.4.1",
+    "react-i18next": "^15.2.0",
+    "typescript": "^5.5.4",
+    "uuid": "^11.0.3"
+  }
+}
